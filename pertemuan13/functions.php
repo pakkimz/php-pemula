@@ -67,7 +67,7 @@ function upload() {
     return false;
   }
 
-  // cek jika ukurannya terlalu besar
+  // cek jika ukuran gambar lebih besar dari 1mb
   $maxSize = ['> 1000000'];
   if (in_array($ukuranFile, $maxSize)) {
     echo "<script>

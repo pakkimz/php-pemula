@@ -47,20 +47,22 @@ if (isset($_POST["submit"])) {
         </li>
         <li>
           <label for="email">Email :</label>
-          <input type="text" name="email" id="email" required>
+          <input type="text" name="email" id="email">
         </li>
         <li>
           <label for="jurusan">Jurusan :</label>
-          <input type="text" name="jurusan" id="jurusan" required>
+          <input type="text" name="jurusan" id="jurusan">
         </li>
         <li>
           <label for="gambar">Gambar :</label>
-          <input type="file" name="gambar" id="gambar" required>
+          <input type="file" name="gambar" id="gambar">
         </li>
         <li>
           <button type="submit" name="submit">Tambah data</button>
         </li>
       </ul>
     </form>
+
+    <a href="index.php">Daftar Mahasiswa</a>
   </body>
 </html>

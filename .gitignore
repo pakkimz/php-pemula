@@ -1,1 +1,2 @@
-pertemuan13/img/
+pertemuan13/img/*
+!pertemuan13/img/.gitkeep
